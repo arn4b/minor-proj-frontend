@@ -4,12 +4,12 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerTitles">
-        <span className="headerTitleSm">React & Node</span>
-        <span className="headerTitleLg">Blog</span>
+        <span className="headerTitleSm">Made with 💚 for KIIT</span>
+        <span className="headerTitleLg">MicroBlog</span>
       </div>
       <img
         className="headerImg"
-        src="https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        src="https://user-images.githubusercontent.com/60937304/164972114-d1477236-c2ee-4118-80cb-0e43c0b9fa23.jpg"
         alt=""
       />
     </div>

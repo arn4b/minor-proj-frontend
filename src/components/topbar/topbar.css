@@ -6,20 +6,22 @@
   top: 0;
   display: flex;
   align-items: center;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   z-index: 999;
+  margin: auto;
 }
 
-.topLeft,
-.topRight {
-  flex: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.userName {
+  text-decoration: none;
+  color: #17d059;
+  font-size: 1.25rem;
 }
 
 .topCenter {
-  flex: 6;
+  width: 100%;
+  margin: 0 5rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .topIcon {
@@ -39,7 +41,7 @@
 
 .topList {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin: 0;
   padding: 0;
   list-style: none;

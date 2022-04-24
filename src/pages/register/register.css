@@ -5,31 +5,41 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    url("https://user-images.githubusercontent.com/60937304/164972810-9cf6e53e-f7b9-40e6-9ee9-0b3df0001cc1.jpg");
   background-size: cover;
 }
 
 .registerTitle {
   font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: white;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #17d059;
 }
 
 .registerForm {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  font-family: 'Poppins', sans-serif;
 }
 
 .registerForm > label {
   margin: 10px 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 1.25rem;
 }
 
 .registerInput {
   padding: 10px;
   background-color: white;
   border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
 }
 
 .registerButton {
@@ -40,16 +50,20 @@
   color: white;
   border-radius: 10px;
   padding: 10px;
+  font-size: 1.25rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .registerLoginButton {
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: lightcoral;
+  background-color: #17d059;
   cursor: pointer;
   border: none;
   padding: 10px;
   color: white;
   border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
 }

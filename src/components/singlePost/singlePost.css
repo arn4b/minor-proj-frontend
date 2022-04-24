@@ -1,5 +1,6 @@
 .singlePost {
   flex: 9;
+  padding: 2rem 5rem;
 }
 
 .singlePostWrapper {
@@ -19,13 +20,13 @@
 .singlePostTitle {
   text-align: center;
   margin: 10px;
-  font-family: "Lora", serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 28px;
 }
 
 .singlePostTitleInput {
   margin: 10px;
-  font-family: "Lora", serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 28px;
   text-align: center;
   border: none;
@@ -65,9 +66,11 @@
 }
 
 .singlePostDesc {
-  color: #666;
-  font-size: 18px;
-  line-height: 25px;
+  color: #000;
+  font-size: 24px;
+  line-height: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem 0;
 }
 
 .singlePostDesc::first-letter {
